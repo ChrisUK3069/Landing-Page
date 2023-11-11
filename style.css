@@ -1,0 +1,171 @@
+body {
+    display:flex;
+    flex-direction: column;
+    border: solid 1px red;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 70px;
+    border: solid 1px red;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.headertext{
+    display:flex;
+    flex-grow: 1;
+    border: solid 1px red;
+}
+
+.headerlinks{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    border: solid 1px red;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.row1 {
+    border: solid 1px red;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.row1main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: dotted 1px red;
+    padding: 70px;
+    /* need to space the text and image equally on row */
+    flex-basis: 1;
+    
+}
+
+.row1mainherotext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+    
+}
+
+.row2 {
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    padding: 70px;
+}
+
+.row2header {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    padding-bottom: 35px;
+
+}
+
+.row2container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: dotted 1px green;
+    
+    
+}
+
+
+
+.cards {
+    border: solid 1px brown;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    border: solid 2px #3882F6;
+    width: 135px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row3 {
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 75px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.row3text {
+    font-size: 26px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.row3quote {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+
+}
+
+.row4 {
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row4header {
+    font-weight: bold;
+}
+
+.bluemain {
+    display: flex;
+    border: solid 1px #3882F6;
+    background-color: #3882F6;
+    margin: 40px;
+    border-radius: 5px;
+    padding: 35px;
+    color: #F9FAF8;
+}
+
+.row4container {
+    display: flex;
+}
+
+.row4button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.footer {
+    border: solid 1px red;
+}
