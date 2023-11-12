@@ -1,8 +1,27 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
 body {
     display:flex;
     flex-direction: column;
-    border: solid 1px red;
-    font-family: Roboto, sans-serif;
+     font-family: Roboto, sans-serif;
+    width: 100vh;
+
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: #F9FAF8;
+    border: none;
+    padding: 3px 14px;
+    margin-top: 3px;
 }
 
 .header {
@@ -10,7 +29,8 @@ body {
     align-items: center;
     justify-content: space-around;
     padding-left: 70px;
-    border: solid 1px red;
+    font-size: 24px;
+
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -18,56 +38,69 @@ body {
 .headertext{
     display:flex;
     flex-grow: 1;
-    border: solid 1px red;
 }
 
 .headerlinks{
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    border: solid 1px red;
+    justify-content: center;
+
 }
 
 ul {
+    display: flex;
     list-style-type: none;
+    gap: 15px;
 }
 a {
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .row1 {
-    border: solid 1px red;
+
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-}
 
-.row1main {
-    display: flex;
     justify-content: center;
     align-content: center;
-    border: dotted 1px red;
+
     padding: 70px;
-    /* need to space the text and image equally on row */
-    flex-basis: 1;
+
+
     
+}
+
+.row1card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: #1F2937;
+
 }
 
 .row1mainherotext {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    
-    
+}
+
+.row1image {
+    display: flex;
+    flex-basis: 100%;
+    background-color: #676e77;
 }
 
 .row2 {
-    border: solid 1px red;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column ;
     padding: 70px;
+    background-color: #F9FAF8;
 }
 
 .row2header {
@@ -82,19 +115,14 @@ a {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: dotted 1px green;
-    
-    
+ 
 }
 
-
-
 .cards {
-    border: solid 1px brown;
+
     display:flex;
     flex-direction: column;
-    justify-content: center;
-
+    margin: 10px;
 }
 
 .card {
@@ -102,43 +130,55 @@ a {
     justify-content: center;
     border: solid 2px #3882F6;
     width: 135px;
+    border-radius: 8px;
+    
+
 }
 
 .text {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    width: 135px;
+    text-align: center;
+    
 }
 
 .row3 {
-    border: solid 1px red;
+
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 75px;
+    padding: 50px 175px;
     flex-direction: column;
     background-color: #E5E7EB;
+    
+    
 }
 
 .row3text {
-    font-size: 26px;
-    font-weight: lighter;
+    font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    justify-content: center;
+    
+ 
 }
 
 .row3quote {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+  
+    
 
 }
 
 .row4 {
-    border: solid 1px red;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F9FAF8;
 }
 
 .row4header {
@@ -159,13 +199,33 @@ a {
     display: flex;
 }
 
+.calltoaction {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+   
+}
+
 .row4button {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 2;
+                
+    
+}
+
+#button1{
+   border: 1px solid #F9FAF8;
+   border-radius: 5px; 
 }
 
 .footer {
-    border: solid 1px red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+
 }
